@@ -15,4 +15,5 @@ async function  add() {
     })
     console.log("已发送");
     
+    document.getElementById('main').value = '';
 }

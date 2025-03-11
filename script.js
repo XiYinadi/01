@@ -60,15 +60,15 @@ let aa="test.jpg";
 let bb="aa.jpg";
 
 function hide_event(){
-    photo.src = "hide.jpg";
+    photo.src = "hide.jpeg";
 }
 
 function hide1_event(){
-    photo.src = "hide1.jpg";
+    photo.src = "hide1.jpeg";
 }
 
 function hide2_event(){
-    photo.src = "hide2.jpg";
+    photo.src = "hide2.jpeg";
 }
 
 photo.onclick = function photo_change(){

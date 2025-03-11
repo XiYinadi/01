@@ -30,7 +30,7 @@ else{
     else
     {
         alert('已提交');
-        document.getElementById('mian').value="";
+        main.value = '';
     }
     
 }

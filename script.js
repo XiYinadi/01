@@ -29,8 +29,8 @@ else{
     }
     else
     {
-        document.getElementById('mian').value="";
         alert('已提交');
+        document.getElementById('mian').value="";
     }
     
 }
@@ -60,15 +60,15 @@ let aa="test.jpg";
 let bb="aa.jpg";
 
 function hide_event(){
-    photo.src = "hide.jpeg";
+    photo.src = "hide.jpg";
 }
 
 function hide1_event(){
-    photo.src = "hide1.jpeg";
+    photo.src = "hide1.jpg";
 }
 
 function hide2_event(){
-    photo.src = "hide2.jpeg";
+    photo.src = "hide2.jpg";
 }
 
 photo.onclick = function photo_change(){

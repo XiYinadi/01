@@ -6,7 +6,7 @@ async function  add() {
     const timestamp = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
     
     await axios({
-        url:'https://s8u1ihmke1.bja.sealos.run/get-one',
+        url:'https://02-hazel.vercel.app/',
         method: 'POST',
         data: {
             title: input,
